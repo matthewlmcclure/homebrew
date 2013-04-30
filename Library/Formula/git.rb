@@ -15,7 +15,7 @@ class Git < Formula
   url 'http://git-core.googlecode.com/files/git-1.8.1.5.tar.gz'
   sha1 '3349a15de7c5501715bda9b68301d0406272f8e0'
 
-  head 'https://github.com/git/git.git'
+  head 'https://github.com/matthewlmcclure/git.git', :branch => 'difftool-directory-symlink-work-tree-2'
 
   option 'with-blk-sha1', 'Compile with the block-optimized SHA1 implementation'
   option 'without-completions', 'Disable bash/zsh completions from "contrib" directory'
